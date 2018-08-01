@@ -12,7 +12,9 @@ var routes = require("./routes");
 var passportsetup = require("./passportsetup");
 var app = express();
 
-mongoose.connect("mongodb://localhost:27017/zombie-social");
+
+mongoose.connect("mongodb://sebastian01:abcdario123@ds263571.mlab.com:63571/zombie-social");
+//mongoose.connect("mongodb://localhost:27017/zombie-social");
 
 passportsetup();
 
